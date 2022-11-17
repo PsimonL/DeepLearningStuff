@@ -43,3 +43,12 @@
 
 
 
+# languages = ['Python', 'Java', 'JavaScript']
+# enumerate_prime = enumerate(languages)
+# # convert enumerate object to list
+# print(list(enumerate_prime))
+# # Output: [(0, 'Python'), (1, 'Java'), (2, 'JavaScript')]
+
+
+import numpy as np
+print((np.array([1, 2, 3, 4])).shape)
