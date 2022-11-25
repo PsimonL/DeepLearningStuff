@@ -1,0 +1,7 @@
+Merge repoB into repoA
+
+cd  path/to/repoA (locally)
+git remote add repoB.git https://github.com/PsimonL/repoB.git (remotly)
+git fetch repoB.git --tags
+git merge --allow-unrelated-histories repoB.git/master # or whichever branch you want to merge
+git remote remove repoB.git
